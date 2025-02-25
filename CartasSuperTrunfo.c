@@ -40,7 +40,7 @@ scanf("%c\n",&estadoA,&estadoB);
 printf("Desafio carta super trunfo!\n");
 
 //Exibir informaçoes da carta 1:
-    printf("Carta01 :\n");
+/*  printf("Carta01 :\n");
     printf("Estado :%c\n",estadoA);
     printf("Nome da Cidade :%s\n", Nome_da_CidadeA);
     printf("Codigo da cidade :%s\n",codigodacidadeA);
@@ -50,10 +50,10 @@ printf("Desafio carta super trunfo!\n");
     printf("Pontos Turisticos: %d\n",Pontos_TuristicoA);
     printf("Densidade da populacao: %.2f\n", Densidade_da_populacaoA,"Hab/Km²");
     printf("PIB per Capita : %.2f\n", pib_per_CapitaA,"Reais");
-    printf("Super poder carta A : %f\n",SuperpoderA);
+    printf("Super poder carta A : %f\n",SuperpoderA);/*
     
 //Exibir informaçoes da carta 2:
-    printf("Carta02 : \n");
+    /*printf("Carta02 : \n");
     printf("Estado: %c\n",estadoB);
     printf("Nome da Cidade :%s\n", Nome_da_CidadeB);
     printf("Codigo da cidade :%s\n",codigodacidadeB);
@@ -63,18 +63,18 @@ printf("Desafio carta super trunfo!\n");
     printf("Pontos Turistico :%d\n",Pontos_TuristicoB);
     printf("Densidade da populacao: %.2f\n", Densidade_da_populacaoB,"Hab/Km²");
     printf("PIB per Capita : %.2f\n", pib_per_CapitaB,"Reais");
-    printf("Super poder carta B : %f\n",SuperpoderB);
+    printf("Super poder carta B : %f\n",SuperpoderB);*/
 
     //Saida da Comparaçao:
     printf("Comparaçao das cartas :\n");
 
-    printf("Carta vencedora :%d\n",ResultadoP);
-    printf("Carta vencedora :%d\n",ResultadoAr);
-    printf("Carta vencedora :%d\n",ResultadoPib);
-    printf("Carta vencedora :%d\n",ResultadoPT);
-    printf("Carta vencedora :%d\n",ResultadoD);
-    printf("Carta vencedora :%d\n",ResultadoPPC);
-    printf("Carta vencedora :%d\n",ResultadoSP);
+    printf("Carta que venceu (B) :%d\n",ResultadoP);
+    printf("Carta que venceu (A) :%d\n",ResultadoAr);
+    printf("Carta que venceu (A) :%d\n",ResultadoPib);
+    printf("Carta que venceu (A) :%d\n",ResultadoPT);
+    printf("Carta que venceu (A) :%d\n",ResultadoD);
+    printf("Carta que venceu (A) :%d\n",ResultadoPPC);
+    printf("Carta que venceu (B) :%d\n",ResultadoSP);
 
     return 0;
 }
